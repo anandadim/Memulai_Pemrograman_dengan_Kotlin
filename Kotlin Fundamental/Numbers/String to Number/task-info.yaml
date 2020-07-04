@@ -1,0 +1,17 @@
+type: theory
+custom_name: String to Number
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        val stringNumber = "23"
+        val intNumber = 3
+
+        print(intNumber + stringNumber.toInt())
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 15:02:00 UTC
+record: -1

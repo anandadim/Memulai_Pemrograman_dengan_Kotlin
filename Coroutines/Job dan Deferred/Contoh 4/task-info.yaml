@@ -1,0 +1,26 @@
+type: theory
+custom_name: Contoh 4
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.*
+
+    fun main() = runBlocking {
+        val job = launch {
+            delay(5000)
+            println("Start new job!")
+        }
+
+        delay(2000)
+        job.cancel()
+        println("Cancelling job...")
+        if (job.isCancelled){
+            println("Job is cancelled")
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 17:47:22 UTC
+record: -1

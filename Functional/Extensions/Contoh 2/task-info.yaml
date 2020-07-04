@@ -1,0 +1,19 @@
+type: theory
+custom_name: Contoh 2
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        println(10.plusThree())
+    }
+
+    fun Int.plusThree(): Int {
+        return this + 3
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 17:19:47 UTC
+record: -1

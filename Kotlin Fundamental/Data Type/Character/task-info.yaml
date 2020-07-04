@@ -1,0 +1,23 @@
+type: theory
+custom_name: Character
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        var vocal = 'A'
+
+        println("Vocal " + vocal++)
+        println("Vocal " + vocal++)
+        println("Vocal " + vocal++)
+        println("Vocal " + vocal--)
+        println("Vocal " + vocal--)
+        println("Vocal " + vocal--)
+        println("Vocal " + vocal--)
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 12:50:14 UTC
+record: -1

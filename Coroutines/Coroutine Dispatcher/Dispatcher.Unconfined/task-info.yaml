@@ -1,0 +1,21 @@
+type: theory
+custom_name: Dispatcher.Unconfined
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    import kotlinx.coroutines.*
+
+    @ExperimentalCoroutinesApi
+    fun main() = runBlocking<Unit> {
+        launch(Dispatchers.Unconfined) {
+            println("Starting in ${Thread.currentThread().name}")
+            delay(1000)
+            println("Resuming in ${Thread.currentThread().name}")
+        }.start()
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 17:49:05 UTC
+record: -1

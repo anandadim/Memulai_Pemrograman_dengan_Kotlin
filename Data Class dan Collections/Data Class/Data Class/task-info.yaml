@@ -1,0 +1,16 @@
+type: theory
+custom_name: Data Class
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    data class DataUser(val name : String, val age : Int)
+
+    fun main() {
+        println("Data Class")
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 17:09:13 UTC
+record: -1

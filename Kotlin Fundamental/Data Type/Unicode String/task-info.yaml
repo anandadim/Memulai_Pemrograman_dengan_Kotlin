@@ -1,0 +1,16 @@
+type: theory
+custom_name: Unicode String
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val name = "Unicode test: \u0394"
+        print(name)
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 12:52:14 UTC
+record: -1

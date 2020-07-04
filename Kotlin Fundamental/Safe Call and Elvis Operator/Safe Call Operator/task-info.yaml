@@ -1,0 +1,15 @@
+type: theory
+custom_name: Safe Call Operator
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    fun main() {
+        val text: String? = null
+        text?.length
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 15:02:49 UTC
+record: -1

@@ -1,0 +1,21 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    fun main() {
+        println("Factorial 10 is: ${factorial(10)}")
+    }
+
+    fun factorial(n: Int): Int {
+        return if (n == 1) {
+            n
+        } else {
+            n * factorial(n - 1)
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 17:32:24 UTC
+record: -1

@@ -1,0 +1,18 @@
+type: theory
+custom_name: Contoh 2
+files:
+- name: src/App.kt
+  visible: true
+  text: |-
+    // main function
+    fun main() {
+        val length = messageLength("Hello From lambda")
+        println("Message length $length")
+    }
+
+    val messageLength = { message: String -> message.length }
+  learner_created: false
+status: Solved
+feedback:
+  time: Mon, 29 Jun 2020 17:21:24 UTC
+record: -1
